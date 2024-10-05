@@ -61,3 +61,20 @@ public class WordCount {
     System.exit(job.waitForCompletion(true) ? 0 : 1);
   }
 }
+
+
+tạo và chèn nội dung:
+cat > /home/cloudera/Processfile1.txt <<EOL
+Ha Noi
+Ho Chi Minh
+Da Nang
+Da Nang
+Da Nang
+Can Tho
+Can Tho
+Ho Chi Minh
+Ho Chi Minh
+Ho Chi Minh
+Ha Noi
+Ha Noi
+EOL
